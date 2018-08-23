@@ -1,0 +1,30 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jin5354/algorithms.git"
+  },
+  "ava": {
+		"require": [
+			"esm"
+		]
+	},
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jin5354/algorithms/issues"
+  },
+  "homepage": "https://github.com/jin5354/algorithms#readme",
+  "dependencies": {
+    "esm": "^3.0.79"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.7"
+  }
+}
