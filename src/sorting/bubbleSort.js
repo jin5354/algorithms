@@ -10,7 +10,7 @@ export default function bubbleSort(ary) {
         endSwap = false
       }
     }
-    // 如果遍历一圈发现没有需要冒泡的了，那就排序完毕直接退出，剩下的也不用遍历了
+    // 如果遍历一圈发现没有需要冒泡的了，说明排序完毕可直接退出，剩下的也不用遍历了
     if(endSwap) {
       break
     }
