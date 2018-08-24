@@ -15,3 +15,11 @@
 | 平均时间复杂度 | 最好情况 | 最坏情况 | 空间复杂度 |
 |----------------|----------|----------|------------|
 | O(n²)          | O(n²)     | O(n²)    | O(1)       |
+
+### [insertSort 插入排序](https://github.com/jin5354/algorithms/blob/master/src/sorting/insertSort.js)
+
+![insertSort](http://louiszhai.github.io/docImages/sort07.gif)
+
+| 平均时间复杂度 | 最好情况 | 最坏情况 | 空间复杂度 |
+|----------------|----------|----------|------------|
+| O(n²)          | O(n)     | O(n²)    | O(1)       |
