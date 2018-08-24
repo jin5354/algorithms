@@ -3,6 +3,11 @@ import {swap} from '../utils'
 export default function bubbleSort(ary) {
   let len = ary.length
   let endSwap = true
+
+  if(len <= 1) {
+    return ary
+  }
+
   for(let i = 0; i < len; i++) {
     for(let j = 0; j < len - i - 1; j++) {
       if(ary[j + 1] < ary[j]) {

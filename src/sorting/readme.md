@@ -23,3 +23,12 @@
 | 平均时间复杂度 | 最好情况 | 最坏情况 | 空间复杂度 |
 |----------------|----------|----------|------------|
 | O(n²)          | O(n)     | O(n²)    | O(1)       |
+
+### [quickSort 快速排序](https://github.com/jin5354/algorithms/blob/master/src/sorting/quickSort.js)
+
+![quickSort](http://louiszhai.github.io/docImages/sort09.gif)
+
+| 平均时间复杂度 | 最好情况 | 最坏情况 | 空间复杂度 |
+|----------------|----------|----------|------------|
+| O(nlogn)          | O(nlogn)     | O(n²)    | O(1)       |
+
