@@ -47,3 +47,11 @@
 | 平均时间复杂度 | 最好情况 | 最坏情况 | 空间复杂度 |
 |----------------|----------|----------|------------|
 | O(nlogn)          | O(nlogn)     | O(nlogn)    | O(n)       |
+
+### [countingSort 计数排序](https://github.com/jin5354/algorithms/blob/master/src/sorting/countingSort.js)
+
+![countingSort](http://louiszhai.github.io/docImages/sort10.gif)
+
+| 平均时间复杂度 | 最好情况 | 最坏情况 | 空间复杂度 |
+|----------------|----------|----------|------------|
+| O(n + k)          | O(n + k)     | O(n + k)    | O(n + k)       |

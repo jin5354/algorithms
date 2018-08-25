@@ -5,9 +5,10 @@ import insertSort from '../../src/sorting/insertSort'
 import quickSort from '../../src/sorting/quickSort'
 import heapSort from '../../src/sorting/heapSort'
 import mergeSort from '../../src/sorting/mergeSort'
+import countingSort from '../../src/sorting/countingSort'
 
 const INPUT = [
-  [4, 3, 2, 1],
+  [4, 3, 2, 1, -1],
   [1, 3, 5, 8, 6, 10, 3],
   [3, 3, 3, 3, 3, 3, 1, 1, 0],
   [1],
@@ -15,7 +16,7 @@ const INPUT = [
 ]
 
 const EXPECTED = [
-  [1, 2, 3, 4],
+  [-1, 1, 2, 3, 4],
   [1, 3, 3, 5, 6, 8, 10],
   [0, 1, 1, 3, 3, 3, 3, 3, 3],
   [1],
@@ -44,4 +45,8 @@ test('heapSort', t => {
 
 test('mergeSort', t => {
   t.deepEqual(INPUT.map(e => mergeSort(e)), EXPECTED)
+})
+
+test('countingSort', t => {
+  t.deepEqual(INPUT.map(e => countingSort(e)), EXPECTED)
 })
