@@ -32,3 +32,10 @@
 |----------------|----------|----------|------------|
 | O(nlogn)          | O(nlogn)     | O(n²)    | O(1)       |
 
+### [quickSort 堆排序](https://github.com/jin5354/algorithms/blob/master/src/sorting/heapSort.js)
+
+![quickSort](https://camo.githubusercontent.com/61a398b035696628efb6b2b71aa444c0e658e8f7/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f342f34642f48656170736f72742d6578616d706c652e676966)
+
+| 平均时间复杂度 | 最好情况 | 最坏情况 | 空间复杂度 |
+|----------------|----------|----------|------------|
+| O(nlogn)          | O(nlogn)     | O(nlogn)    | O(1)       |

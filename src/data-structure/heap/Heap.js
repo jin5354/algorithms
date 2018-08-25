@@ -108,7 +108,7 @@ export default class Heap {
    */
   heapify(direction) {
     switch(direction) {
-      // 由堆最底层向上层堆化
+      // 由堆最底层向上层堆化（上滤）
       case('up'): {
         let currentIndex = this.data.length - 1
         while(this.parent(currentIndex) !== undefined && !this.heapifyOrderComparator(this.parent(currentIndex), this.data[currentIndex])) {
@@ -117,7 +117,7 @@ export default class Heap {
         }
         break
       }
-      // 由堆根节点向下层堆化
+      // 由堆根节点向下层堆化（下滤）
       case('down'): {
         let currentIndex = 0
         while(this.leftChild(currentIndex) !== undefined) {
