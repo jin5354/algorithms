@@ -4,6 +4,7 @@ import selectSort from '../../src/sorting/selectSort'
 import insertSort from '../../src/sorting/insertSort'
 import quickSort from '../../src/sorting/quickSort'
 import heapSort from '../../src/sorting/heapSort'
+import mergeSort from '../../src/sorting/mergeSort'
 
 const INPUT = [
   [4, 3, 2, 1],
@@ -39,4 +40,8 @@ test('quickSort', t => {
 
 test('heapSort', t => {
   t.deepEqual(INPUT.map(e => heapSort(e)), EXPECTED)
+})
+
+test('mergeSort', t => {
+  t.deepEqual(INPUT.map(e => mergeSort(e)), EXPECTED)
 })
