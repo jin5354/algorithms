@@ -1,5 +1,12 @@
 import {swap} from '../utils'
 
+/**
+ * bubbleSort
+ *
+ * @export
+ * @param {Array<Number>} ary
+ * @returns
+ */
 export default function bubbleSort(ary) {
   let len = ary.length
   let endSwap = true

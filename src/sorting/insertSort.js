@@ -1,5 +1,12 @@
 import {swap} from '../utils'
 
+/**
+ * insertSort
+ *
+ * @export
+ * @param {Array<Number>} ary
+ * @returns
+ */
 export default function insertSort(ary) {
   let len = ary.length
 

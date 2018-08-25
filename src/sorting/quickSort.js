@@ -1,3 +1,10 @@
+/**
+ * quickSort
+ *
+ * @export
+ * @param {Array<Number>} ary
+ * @returns
+ */
 export default function quickSort(ary) {
   if(ary.length <= 1) {
     return ary
